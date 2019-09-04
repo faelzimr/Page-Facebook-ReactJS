@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  border:0;
+  outline: 0;
+}
+body {
+  background: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  height: 64px;
+  width: 100%;
+  background: #4A90E2;
+}
+div.Conteiner {
+  max-width: 1024px;
+  margin:0 auto;
+}
+header div.Conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 15px;
+}
+header div.Conteiner div.user{
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+}
+header div.Conteiner div.user p{
+  font-size: 17px;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 10px;
+}
+header div.Conteiner div.user svg{
+  color: #fff;
+}
+ul.ContainerPostList {
+  list-style: none;
+  margin: 20px auto 0 auto;
+  max-width: 700px;  
+}
+ul.ContainerPostList > li{
+  background: #fff;
+  padding: 20px;
+  margin-top:20px;
+  border-radius: 3px;
+}
+ul.ContainerPostList li div.profile{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+ul.ContainerPostList li div.profile img{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+ul.ContainerPostList li div.profile div.info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px; 
+}
+
+ul.ContainerPostList li div.profile div.info strong{
+  font-size: 14px;
+  color: #4A4A4A;  
+}
+
+ul.ContainerPostList li div.profile div.info span{
+  font-size: 11px;
+  color: #9A9A9A;  
+}
+
+ul.ContainerPostList li > p{
+  margin-top: 20px;
+  color:#3E3E3E;
+  font-size: 14px;
+}
+
+ul.ContainerPostList li ul{
+  list-style: none;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #eeeeee;
+}
+
+ul.ContainerPostList li ul li{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px; 
+}
+ul.ContainerPostList li ul li img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+ul.ContainerPostList li ul li div.comment{
+  width: 100%;
+  padding: 13px;
+  background: #EEEEEE;
+  border-radius: 17px;
+  margin-left: 10px;
+}
+ul.ContainerPostList li ul li div.comment p{
+  font-size: 13px;
+  color: #3E3E3E;
+  line-height: 1.5;
+}
